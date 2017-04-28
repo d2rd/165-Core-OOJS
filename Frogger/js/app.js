@@ -1,3 +1,4 @@
+//Changed Enemy name to Bug but not implented yet.
 var Bug = function(x, y, sprite, speed) {
     this.xConstant = 51;
     this.yConstant = 32;
@@ -12,6 +13,7 @@ var Enemy = function() {
   // The image/sprite for our enemies, this uses
   // a helper we've provided to easily load images
   this.sprite = 'images/enemy-bug.png';
+
   //   this.speed = speed || 1;
   //   Bug.call(this, x, y, speed);
 };
